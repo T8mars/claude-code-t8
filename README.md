@@ -33,7 +33,7 @@ B站：ai代码侠土豆的仓库：https://github.com/AICodert8/claude-code-tud
 npm install
 ```
 
-# 核心依赖安装：
+#### 核心依赖安装：
 
 安装bun
 
