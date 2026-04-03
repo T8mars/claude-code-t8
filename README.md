@@ -1,4 +1,4 @@
-﻿# Claude Code T8 (T8版)
+﻿# Claude Code(T8版)
 
 基于 Claude Code 源码修复的 **本地增强版**。本项目不仅完整保留了 Claude Code 的 TUI 交互和 Agent 能力，还额外集成了 **Electron 桌面端** 界面，并支持通过环境变量灵活接入各类 Anthropic 兼容 API以及openai兼容格式的api，支持调用贞贞的ai工坊api。
 
@@ -57,10 +57,10 @@ cp .env.example .env
 #### 运行终端 TUI (推荐)
 ```bash
 # 交互模式
-node .\bin\claude-code-t8
+node .\bin\claude-code-tudou
 
 # 单次执行 (无头模式)
-node .\bin\claude-code-t8 -p "帮我分析当前目录结构"
+node .\bin\claude-code-tudou -p "帮我分析当前目录结构"
 ```
 
 #### 运行桌面端 (Electron)
