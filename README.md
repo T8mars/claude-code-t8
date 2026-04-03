@@ -6,9 +6,9 @@
 
 本项目参考及基于以下2个项目创建和更新，感谢他们对开源社区的贡献
 
-Claude code：https://github.com/AICodert8/claude-code-tudou.git
+Claude code：https://github.com/instructkr/claw-code.git
 
-B站：ai代码侠土豆的仓库：https://github.com/instructkr/claw-code.git
+B站：ai代码侠土豆的仓库：https://github.com/AICodert8/claude-code-tudou.git
 
 ---
 
