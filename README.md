@@ -24,7 +24,7 @@ Youtube教程：https://www.youtube.com/watch?v=dk_HG6d1mQs
   - **终端 TUI**：基于 React + Ink 的完整命令行交互界面，支持工具调用、代码编辑和多步迭代。
   - **桌面端 (Electron)**：提供 Vue 3 构建的图形化聊天界面，支持会话管理、工作区切换及可视化设置。
 - **全能 Agent**：内置 `BashTool` (执行终端命令)、`FileEditTool` (精准代码编辑)、`Grep/GlobTool` (代码搜索) 等核心工具。
-- **高度可定制**：通过 `.env` 轻松配置 API 端点、模型参数及超时设置，兼容 MiniMax、OpenRouter 等第三方服务。
+- **高度可定制**：通过 `.env` 轻松配置 API 端点、模型参数及超时设置，兼容 MiniMax、OpenRouter，贞贞的API工坊 等第三方服务。
 - **稳定性修复**：针对原始源码在本地环境下的启动卡死、按键失效、依赖缺失等问题进行了深度修复。
 
 ---
