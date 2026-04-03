@@ -33,6 +33,16 @@ B站：ai代码侠土豆的仓库：https://github.com/AICodert8/claude-code-tud
 npm install
 ```
 
+核心依赖安装：
+
+安装bun
+
+powershell -c "irm bun.sh/install.ps1 | iex"
+
+安装node.js
+
+https://nodejs.org/en/download
+
 ### 2. 配置项目
 复制并编辑环境变量：
 ```bash
@@ -45,10 +55,10 @@ cp .env.example .env
 #### 运行终端 TUI (推荐)
 ```bash
 # 交互模式
-./bin/claude-code-t8
+node .\bin\claude-code-t8
 
 # 单次执行 (无头模式)
-./bin/claude-code-t8 -p "帮我分析当前目录结构"
+node .\bin\claude-code-t8 -p "帮我分析当前目录结构"
 ```
 
 #### 运行桌面端 (Electron)
