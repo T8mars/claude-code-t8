@@ -10,6 +10,11 @@ Claude code：https://github.com/instructkr/claw-code.git
 
 B站：ai代码侠土豆的仓库：https://github.com/AICodert8/claude-code-tudou.git
 
+本地部署视频教程：
+
+Bilibili教程：https://www.bilibili.com/video/BV1qq9TBUEi6/
+Youtube教程：https://www.youtube.com/watch?v=dk_HG6d1mQs
+
 ---
 
 ## 核心特性
