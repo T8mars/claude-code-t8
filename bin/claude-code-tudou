@@ -1,0 +1,34 @@
+#!/usr/bin/env node
+import { spawn } from "node:child_process";
+import { dirname, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const rootDir = resolve(dirname(fileURLToPath(import.meta.url)), "..");
+const isRecoveryMode = process.env.CLAUDE_CODE_FORCE_RECOVERY_CLI === "1";
+const entrypoint = isRecoveryMode
+  ? "./src/localRecoveryCli.ts"
+  : "./src/entrypoints/cli.tsx";
+
+const bunCommand = "bun";
+const child = spawn(
+  bunCommand,
+  ["--env-file=.env", entrypoint, ...process.argv.slice(2)],
+  {
+    cwd: rootDir,
+    stdio: "inherit",
+    shell: process.platform === "win32",
+  },
+);
+
+child.on("error", (error) => {
+  console.error(`Failed to start Bun runtime: ${error.message}`);
+  process.exit(1);
+});
+
+child.on("exit", (code, signal) => {
+  if (signal) {
+    process.kill(process.pid, signal);
+    return;
+  }
+  process.exit(code ?? 0);
+});

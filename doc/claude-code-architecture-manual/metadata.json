@@ -1,0 +1,5 @@
+{
+  "name": "Claude Code Architecture Manual",
+  "description": "A technical research manual for Claude Code architecture, featuring lifecycle, tool systems, and security patterns.",
+  "requestFramePermissions": []
+}

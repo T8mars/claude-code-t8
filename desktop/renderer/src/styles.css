@@ -1,0 +1,34 @@
+﻿:root {
+  color-scheme: dark;
+  font-family: "Microsoft YaHei", "PingFang SC", "Segoe UI", sans-serif;
+  --bg-0: #0e0a0e;
+  --bg-1: #150f15;
+  --bg-2: #1f1416;
+  --text-main: #f6e8dc;
+  --text-sub: #c7afa0;
+  --line: rgba(255, 166, 104, 0.22);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background:
+    radial-gradient(70% 110% at 0% 100%, rgba(129, 55, 35, 0.24), transparent 60%),
+    radial-gradient(55% 90% at 100% 0%, rgba(77, 30, 25, 0.2), transparent 62%),
+    linear-gradient(180deg, var(--bg-2), var(--bg-0));
+  color: var(--text-main);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
