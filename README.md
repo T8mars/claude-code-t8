@@ -37,7 +37,9 @@ npm install
 
 安装bun
 
+```bash
 powershell -c "irm bun.sh/install.ps1 | iex"
+```
 
 安装node.js
 
